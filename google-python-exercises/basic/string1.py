@@ -26,7 +26,7 @@
 def donuts(count):
   if count > 9:
       count = "many"
-  return count
+  return 'Number of donuts: ' + str(count) 
 
 
 # B. both_ends
@@ -63,7 +63,7 @@ def fix_start(s):
 #   'dog', 'dinner' -> 'dig donner'
 # Assume a and b are length 2 or more.
 def mix_up(a, b):
-  return b[0:3]+a[3:] +" "+a[0:3]+b[3:]
+  return b[0:2]+a[2:] +" "+a[0:2]+b[2:]
 
 
 # Provided simple test() function used in main() to print
