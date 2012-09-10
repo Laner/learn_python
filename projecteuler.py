@@ -29,5 +29,19 @@ The prime factors of 13195 are 5, 7, 13 and 29.
 
 What is the largest prime factor of the number 600851475143 ?
 """
-def primefactor(nr):
+# A func to find the next prime
+def nextPrime(nr):
+  result = True
+  for x in xrange(2,nr - 1):
+    if nr % x:
+      continue
+    else:
+      result = False
+      break
+  return result
+print nextPrime(11)
+
+#a func to divide inout by the increasing primes
+def primeFactor(nr):
+  pass
   #divide the nr by the smallest prime nr and increase the prime
