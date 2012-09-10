@@ -62,3 +62,10 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 
 Find the largest palindrome made from the product of two 3-digit numbers.
 """
+for x in reversed(range(900,999)):
+        for y in reversed(range(900,999)):
+                nr = y*x
+                if nr == int(str(nr)[::-1]):
+                        print nr
+                        break
+        
