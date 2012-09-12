@@ -87,3 +87,5 @@ def main():
 
 if __name__ == '__main__':
   main()
+matrix = [[x for x in i] for i in range(1,4)] # <- Your code goes inside those brackets!
+print matrix

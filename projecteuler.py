@@ -98,3 +98,5 @@ By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that 
 
 What is the 10 001st prime numbe
 """
+matrix = [[x for x in i] for i in range(1,4)] # <- Your code goes inside those brackets!
+print matrix
