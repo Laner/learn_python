@@ -76,6 +76,20 @@ Problem 5
 
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 """
+dividers = [x for x in range(2,21)]
+print dividers
+print dividers[-1]
+cont = False
+count = 2000
+while not cont:
+    for x in dividers:
+        if count % x:
+            count = count + 1
+            #print count
+            break
+        if x == dividers[-1]:
+            print count
+            cont = True
 """
 Problem 6
 14 December 2001
