@@ -188,17 +188,16 @@ The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 Find the sum of all the primes below two million.
 '''
 def findNumPrime(maxnumber):
-    primeList, candidate = [2], 3
-    while candidate < maxnumber:
-        for x in xrange(2, candidate):
-            if candidate % x == 0:
-                break
-            if x == candidate - 1:
-                primeList.append(candidate)
-        candidate += 1
+    primeList, candidate = [], maxnumber
+    for x in xrange(maxnumber,1,-1):
+        if candidate % x == 0 and x != 2:
+            break
+        if x == 2:
+        candidate -= 1
     # print primeList
     print sum(primeList)
-findNumPrime(2000000)
+findNumPrime(10)
+
 '''Problem 11
 22 February 2002
 
