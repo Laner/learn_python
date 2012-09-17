@@ -193,6 +193,7 @@ def findNumPrime(maxnumber):
         if candidate % x == 0 and x != 2:
             break
         if x == 2:
+            primeList.append(candidate)
         candidate -= 1
     # print primeList
     print sum(primeList)
