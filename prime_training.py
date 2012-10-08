@@ -24,5 +24,5 @@ def nextPrime(possible_prime):
                 print "It is a prime -> ", possible_prime
                 is_prime = True
 
-x = sum([i for i in range(2,200) if isPrime(i)] )
+x = sum([i for i in xrange(2,200) if isPrime(i)] )
 print x
