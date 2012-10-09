@@ -1,0 +1,743 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"print_",
+				"print_top"
+			],
+			[
+				"word",
+				"word_dict"
+			],
+			[
+				"buil",
+				"build_dict"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"max",
+				"maxnumber"
+			],
+			[
+				"Pr",
+				"prob3"
+			],
+			[
+				"spl",
+				"split"
+			],
+			[
+				"ne",
+				"nextPrime"
+			],
+			[
+				"func1",
+				"func10"
+			],
+			[
+				"fun",
+				"func9"
+			],
+			[
+				"func",
+				"func8"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"str",
+				"strArr"
+			],
+			[
+				"C",
+				"CLUTCH"
+			],
+			[
+				"E",
+				"E"
+			],
+			[
+				"A",
+				"A"
+			],
+			[
+				"Str",
+				"strArr"
+			],
+			[
+				"p",
+				"pop"
+			],
+			[
+				"lis",
+				"list2"
+			],
+			[
+				"list",
+				"list1"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"wor",
+				"word"
+			],
+			[
+				"lorem",
+				"lorem	lorem - One sentence"
+			],
+			[
+				"tem",
+				"tempChar"
+			],
+			[
+				"game",
+				"gameShownAnswer"
+			],
+			[
+				"stu",
+				"student_sorted"
+			],
+			[
+				"org",
+				"org_sorted"
+			],
+			[
+				"or",
+				"org_string"
+			],
+			[
+				"fu",
+				"function1"
+			],
+			[
+				"th",
+				"three"
+			],
+			[
+				"new",
+				"newPsychString"
+			],
+			[
+				"sor",
+				"sort"
+			],
+			[
+				"psy",
+				"psychString"
+			],
+			[
+				"rn",
+				"rndArray"
+			],
+			[
+				"rnd",
+				"rndArray"
+			],
+			[
+				"rot",
+				"rot13_map"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"toL",
+				"toLowerCase  (function)"
+			],
+			[
+				"num",
+				"num2  (variable)"
+			],
+			[
+				"pa",
+				"padding	padding: T R B L"
+			],
+			[
+				"di",
+				"display	display: inline"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background	background-color: transparent"
+			],
+			[
+				"none",
+				"none  (value)"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"ge",
+				"getLimit"
+			],
+			[
+				"getN",
+				"getName"
+			],
+			[
+				"l3",
+				"l33tString"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"string",
+				"string"
+			],
+			[
+				"l",
+				"length  (variable)"
+			],
+			[
+				"stri",
+				"stringArray"
+			],
+			[
+				"in",
+				"indexOf  (function)"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"rol",
+				"rollDice"
+			],
+			[
+				"va",
+				"var"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 93.0,
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Edit"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"lin",
+				"JSHint: Linter"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"zen",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"lo",
+				"Snippet: lorem - One sentence"
+			],
+			[
+				"wrp",
+				"Zen Coding: Wrap zen as you type"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"pre",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"synt",
+				"Set Syntax: Python"
+			],
+			[
+				"pret",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"place",
+				"Snippet: Image - Placeholder"
+			],
+			[
+				"lore",
+				"Snippet: lorem - Short paragraph"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"packa",
+				"Package Control: Enable Package"
+			],
+			[
+				"todo",
+				"Show TODOs: Open files only"
+			],
+			[
+				"to",
+				"Show TODOs: Open files only"
+			],
+			[
+				"jshi",
+				"V8: Run JSHint"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"repl",
+				"SublimeREPL: Node"
+			],
+			[
+				"previ",
+				"Markdown Preview: current file in browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: current file in Sublime Text"
+			],
+			[
+				"apack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"v8",
+				"V8: Show Console"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"LIN",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"LINT",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"linte",
+				"SublimeLinter: Show Error List"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Runar/Dropbox/git/learn_python/google-python-exercises/basic/solution/wordcount.py",
+		"/Users/Runar/Dropbox/git/learning_js/tmp.py",
+		"/Users/Runar/Dropbox/git/learn_python/google-python-exercises/basic/wordcount.py",
+		"/Users/Runar/Dropbox/git/learn_python/projecteuler.py",
+		"/Users/Runar/Dropbox/git/learn_python/google-python-exercises/basic/list2.py",
+		"/Users/Runar/Dropbox/git/learn_python/google-python-exercises/basic/solution/list2.py",
+		"/Users/Runar/Dropbox/git/learn_python/google-python-exercises/basic/tmp.py",
+		"/Users/Runar/Dropbox/git/learn_python/google-python-exercises/basic/small.txt",
+		"/Users/Runar/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Runar/Dropbox/git/learning_js/dropquest validation.js",
+		"/Users/Runar/Dropbox/git/learning_js/dropquest.js",
+		"/Users/Runar/Dropbox/Prefs/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Runar/Dropbox/git/learn_python/google-python-exercises/basic/solution/list1.py",
+		"/Users/Runar/Dropbox/git/learn_python/google-python-exercises/basic/list1.py",
+		"/Users/Runar/Dropbox/git/learn_python/google-python-exercises/basic/string2.py",
+		"/Users/Runar/Dropbox/Prefs/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Runar/Dropbox/git/learn_python/google-python-exercises/basic/solution/string2.py",
+		"/Users/Runar/Dropbox/Prefs/Sublime Text 2/Packages/User/BracketHighlighter.sublime-settings",
+		"/Users/Runar/Dropbox/Prefs/Sublime Text 2/Packages/User/js.sublime-build",
+		"/Users/Runar/Dropbox/Prefs/Sublime Text 2/Packages/BracketHighlighter/BracketHighlighter.sublime-settings",
+		"/Users/Runar/Dropbox/git/learning_js/loop challenge.js",
+		"/Users/Runar/Dropbox/git/learning_js/independent coder reasearch.txt",
+		"/Users/Runar/Dropbox/git/learning_js/roversproket.js",
+		"/Users/Runar/Dropbox/git/learning_js/blackjack-new.html",
+		"/Users/Runar/Dropbox/git/learning_js/tmp.js",
+		"/Users/Runar/Dropbox/git/learning_js/untitled.html",
+		"/Users/Runar/Dropbox/git/learning_js/blackjack-new.js",
+		"/Users/Runar/Dropbox/git/learning_js/challenge.js",
+		"/Users/Runar/Dropbox/git/learning_js/challenge.css",
+		"/Users/Runar/Dropbox/git/learning_js/challeng.html",
+		"/Users/Runar/Dropbox/git/learning_js/test.js",
+		"/Users/Runar/Dropbox/git/learning_js/guessinggame.js",
+		"/Users/Runar/Dropbox/Prefs/Sublime Text 2/Packages/SideBarGit/SideBarGit.sublime-settings",
+		"/Users/Runar/Dropbox/Prefs/Sublime Text 2/Packages/User/SideBarGit.sublime-settings",
+		"/Users/Runar/Dropbox/Prefs/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/Runar/Dropbox/Prefs/Sublime Text 2/Packages/SublimeLinter/README.rst",
+		"/Users/Runar/Dropbox/git/learning_js/10000.js",
+		"/Users/Runar/Dropbox/Prefs/Sublime Text 2/Packages/SideBarGit/readme.md",
+		"/Users/Runar/Dropbox/Prefs/Sublime Text 2/Packages/Search Stack Overflow/README.md",
+		"/Users/Runar/Library/Application Support/Sublime Text 2/Packages/User/jsphantom.sublime-build",
+		"/Users/Runar/Dropbox/git/learning_js/blackjack2.js",
+		"/Users/Runar/Library/Application Support/Sublime Text 2/Packages/User/js.sublime-build",
+		"/Users/Runar/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"x",
+			"nr",
+			"filename",
+			"nthPrime",
+			"str",
+			"var",
+			"5",
+			"a_len",
+			"function9",
+			"function5",
+			"function2",
+			"function1",
+			"detec",
+			"outline",
+			"solid",
+			"rndString",
+			":",
+			"if",
+			"                                                                            ",
+			"                                                                        ",
+			"                                                                    ",
+			"                                                                ",
+			"                                                            ",
+			"                                                    ",
+			"if",
+			"                                                    ",
+			"                                                ",
+			"                                            ",
+			"                                        ",
+			"                                    ",
+			"                                ",
+			"if",
+			"                            ",
+			"                        ",
+			"                    ",
+			"                ",
+			"vokaler",
+			"slutt",
+			"setning",
+			"string",
+			"nav_container",
+			"Praesent",
+			"http",
+			"argument",
+			"solid",
+			"// ",
+			"i",
+			"newString"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 161.0
+	},
+	"output.jsconsole_view":
+	{
+		"height": 0.0
+	},
+	"output.jshint_view":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"soluwor",
+				"learn_python/google-python-exercises/basic/solution/wordcount.py"
+			],
+			[
+				"tm",
+				"learning_js/tmp.py"
+			],
+			[
+				"t",
+				"learning_js/tmp.py"
+			],
+			[
+				"word",
+				"learn_python/google-python-exercises/basic/wordcount.py"
+			],
+			[
+				"tmp",
+				"learning_js/tmp.py"
+			],
+			[
+				"pro",
+				"learn_python/projecteuler.py"
+			],
+			[
+				"list",
+				"learn_python/google-python-exercises/basic/solution/list2.py"
+			],
+			[
+				"list1",
+				"learn_python/google-python-exercises/basic/solution/list1.py"
+			],
+			[
+				"lis",
+				"learn_python/google-python-exercises/basic/list2.py"
+			],
+			[
+				"drop",
+				"learning_js/dropquest.js"
+			],
+			[
+				"ro",
+				"roversproket.js"
+			],
+			[
+				"bl",
+				"blackjack-new.js"
+			],
+			[
+				"blajs",
+				"blackjack-new.js"
+			],
+			[
+				"g",
+				"guessinggame.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 260.0,
+	"status_bar_visible": true
+}
