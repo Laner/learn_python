@@ -19,15 +19,17 @@ p = nextPrime()
 
 def test(*args):
     for start in range(len(args)-3):
-        for x in zip(*args[start:start+4]):
-            total = 1
-            for i in zip(x):
+        print start
+        for x in map(*args[start:start+4]):
+            print x
+            #total = 1
+            #for i in zip(x):
                 
-                total *= i
-                print i, "-", total
+               # total *= i
+        #print "-", total
         #k = [t * s for t, s in zip(*args)]
         #print k
-        print "length", len(args), total
+        #print "length", len(args), total
     
 
 def traversLines(*args):
