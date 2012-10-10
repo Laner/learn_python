@@ -18,12 +18,17 @@ p = nextPrime()
 
 
 def test(*args):
-    for x in args:
-        print x
-    print len(args)
-
-test(1, 2, 3, 4, 5)
-
+    for start in range(len(args)-3):
+        for x in zip(*args[start:start+4]):
+            total = 1
+            for i in zip(x):
+                
+                total *= i
+                print i, "-", total
+        #k = [t * s for t, s in zip(*args)]
+        #print k
+        print "length", len(args), total
+    
 
 def traversLines(*args):
     largest_nr = 0
@@ -40,10 +45,15 @@ def traversLines(*args):
                     largest_nr = product_in_string
     print largest_nr
 
-lst = "12345678"
-lst2 = "34567909"
-traversLines(lst, lst2)
+lst = [1, 2, 3]
+lst2 = [3, 2, 1]
+lst3 = [1, 2, 1]
+lst4 = [2, 1, 2]
+lst5 = [2, 2, 2]
+test(lst, lst2, lst3, lst4, lst5)
+#traversLines(lst, lst2)
 
+'''
 08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08
 49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00
 81 49 31 73 55 79 14 29 93 71 40 67 53 88 30 03 49 13 36 65
@@ -64,3 +74,4 @@ traversLines(lst, lst2)
 20 69 36 41 72 30 23 88 34 62 99 69 82 67 59 85 74 04 36 16
 20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
+'''
