@@ -84,8 +84,11 @@ def diagonally(*args):
         for x in xrange(len(tmp_args)):
             #print start
             #print "----------"
-            print tmp_args[0][x] , tmp_args[1][x + 1] , tmp_args[2][x + 2], tmp_args[3][x + 3]
+            print tmp_args[0][x], tmp_args[1][x + 1] , tmp_args[2][x + 2], tmp_args[3][x + 3]
             total = tmp_args[0][x] * tmp_args[1][x + 1] * tmp_args[2][x + 2] * tmp_args[3][x + 3]
+            if total > largest_nr:
+                largest_nr = total
+            total = tmp_args[3][x] * tmp_args[2][x + 1] * tmp_args[1][x + 2] * tmp_args[0][x + 3]
             if total > largest_nr:
                 largest_nr = total
     return largest_nr
