@@ -140,3 +140,8 @@
 {"ts":1353919976030,"patch":[[{"diffs":[[0,"\"\n\n\nfor one."],[1,"parent"]],"start1":732,"start2":732,"length1":12,"length2":18}]],"length":750,"saved":false}
 {"ts":1353919982466,"patch":[[{"diffs":[[0,"r one.parent"],[1," in"]],"start1":738,"start2":738,"length1":12,"length2":15}]],"length":753,"saved":false}
 {"ts":1353919984756,"patch":[[{"diffs":[[0,"arent in"],[1," "]],"start1":745,"start2":745,"length1":8,"length2":9}]],"length":754,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1353935563470,"patch":[[{"diffs":[[0,"\"\n\n\n"],[-1,"for one.parent in "]],"start1":732,"start2":732,"length1":22,"length2":4}]],"length":736,"saved":false}
+{"ts":1353935579344,"patch":[[{"diffs":[[1,"\n"],[0,"class Item(o"]],"start1":0,"start2":0,"length1":12,"length2":13}]],"length":737,"saved":false}
+{"ts":1353935582053,"patch":[[{"diffs":[[1,"items ="],[0,"\nclass Item("]],"start1":0,"start2":0,"length1":12,"length2":19}]],"length":744,"saved":false}
+{"ts":1353935583456,"patch":[[{"diffs":[[0,"items ="],[1," []"],[0,"\nclass I"]],"start1":0,"start2":0,"length1":15,"length2":18}]],"length":747,"saved":false}
+{"ts":1353935588000,"patch":[[{"diffs":[[0,"us = status\n"],[1,"        \n"],[0,"    \n    def"]],"start1":182,"start2":182,"length1":24,"length2":33}]],"length":756,"saved":false}
