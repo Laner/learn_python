@@ -18,19 +18,20 @@ p = nextPrime()
 
 
 def test(*args):
-    for start in range(len(args)-3):
-        print start
-        for x in map(*args[start:start+4]):
+    for start in range(len(args) - 3):
+        print "test", start
+        tmp_args = args[start:start + 3]
+        for x in zip(*tmp_args):
             print x
+            print reduce(lambda z, y: z * y, x)
             #total = 1
             #for i in zip(x):
-                
-               # total *= i
+            #          # total *= i
         #print "-", total
         #k = [t * s for t, s in zip(*args)]
         #print k
         #print "length", len(args), total
-    
+
 
 def traversLines(*args):
     largest_nr = 0
@@ -47,12 +48,30 @@ def traversLines(*args):
                     largest_nr = product_in_string
     print largest_nr
 
-lst = [1, 2, 3]
-lst2 = [3, 2, 1]
-lst3 = [1, 2, 1]
-lst4 = [2, 1, 2]
-lst5 = [2, 2, 2]
-test(lst, lst2, lst3, lst4, lst5)
+
+def convertStrToIntList(*args):
+    '''taks n str and replaces them with int lists
+
+    using args'''
+    for arg in args:
+        print arg
+        arg.split(" ")
+
+
+lst = map(int, "08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08".split(" "))
+lst2 = map(int, "49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00".split(" "))
+lst3 = map(int, "81 49 31 73 55 79 14 29 93 71 40 67 53 88 30 03 49 13 36 65".split(" "))
+lst4 = map(int, "52 70 95 23 04 60 11 42 69 24 68 56 01 32 56 71 37 02 36 91".split(" "))
+lst5 = map(int, "22 31 16 71 51 67 63 89 41 92 36 54 22 40 40 28 66 33 13 80".split(" "))
+lst6 = map(int, "24 47 32 60 99 03 45 02 44 75 33 53 78 36 84 20 35 17 12 50".split(" "))
+print lst
+print lst2
+#lst = map(int, lst.split(" "))
+#convertStrToIntList(lst2)
+print lst
+print lst2
+
+test(lst, lst2, lst3, lst4, lst5, lst6)
 #traversLines(lst, lst2)
 
 '''
