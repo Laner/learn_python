@@ -19,7 +19,7 @@ def get_count(word_count_tuple):
   return word_count_tuple[1]
 
 def extract_names(filename):
-	fullhtml = babyhtml.read()
+	inputfile = open(filename, 'rU')
 	fullhtml = inputfile.read()
 	babynames = re.findall('(?<=<td>).+?(?=</td>)', fullhtml)
 	year = re.findall('(?<=Popularity in )\d\d\d\d',fullhtml)

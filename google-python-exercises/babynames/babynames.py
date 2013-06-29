@@ -77,6 +77,7 @@ def main():
   # +++your code here+++
   # For each filename, get the names, then either print the text output
   # or write it to a summary file
+  for arg in args:
     textlist = extract_names(arg)
     text = '\n'.join(textlist) + '\n' #googles tip on lines in print
     if summary:
