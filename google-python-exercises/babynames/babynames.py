@@ -33,6 +33,9 @@ Suggested milestones for incremental development:
  -Build the [year, 'name rank', ... ] list and print it
  -Fix main() to use the extract_names list
 """
+def get_count(word_count_tuple):
+  """Returns the count from a dict word/count tuple  -- used for custom sort."""
+  return word_count_tuple[1]
 
 def extract_names(filename):
   """
@@ -40,9 +43,20 @@ def extract_names(filename):
   followed by the name-rank strings in alphabetical order.
   ['2006', 'Aaliyah 91', Aaron 57', 'Abagail 895', ' ...]
   """
-  # +++your code here+++
-  return
-
+  inputfile = open(filename, 'rU')
+  fullhtml = inputfile.read()
+  babynames = re.findall('(?<=<td>).+?(?=</td>)', fullhtml)
+  year = re.findall('(?<=Popularity in )\d\d\d\d',fullhtml)
+  boyNamesWithRank = dict(zip(babynames[1::3], babynames[0::3]))
+  girlNamesWithRank = dict(zip(babynames[2::3], babynames[0::3]))
+  allNamesWithRank = {}
+  allNamesWithRank.update(boyNamesWithRank)
+  allNamesWithRank.update(girlNamesWithRank)
+  namesWithRankList = [''.join(year)]
+  for name, rank in sorted(allNamesWithRank.items(), key=get_count):
+    nameRank = name + ' ' + rank
+    namesWithRankList.append(nameRank)
+  return namesWithRankList
 
 def main():
   # This command-line parsing code is provided.
@@ -63,6 +77,16 @@ def main():
   # +++your code here+++
   # For each filename, get the names, then either print the text output
   # or write it to a summary file
-  
+    textlist = extract_names(arg)
+    text = '\n'.join(textlist) + '\n' #googles tip on lines in print
+    if summary:
+      fileName = arg + '.summary'
+      f = open(fileName, 'w')
+      f.write(text)
+      f.close()
+    else:
+      text = '\n'.join(textlist) + '\n' #googles tip on lines in print
+      print text
+
 if __name__ == '__main__':
   main()

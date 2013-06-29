@@ -14,12 +14,28 @@
 
 # Begin solution
 import re
+def get_count(word_count_tuple):
+  """Returns the count from a dict word/count tuple  -- used for custom sort."""
+  return word_count_tuple[1]
 
 def extract_names(filename):
-	babyhtml = open(filename, 'rU')
 	fullhtml = babyhtml.read()
+	fullhtml = inputfile.read()
 	babynames = re.findall('(?<=<td>).+?(?=</td>)', fullhtml)
 	year = re.findall('(?<=Popularity in )\d\d\d\d',fullhtml)
-	print year
-
+	boyNamesWithRank = dict(zip(babynames[1::3], babynames[0::3]))
+	girlNamesWithRank = dict(zip(babynames[2::3], babynames[0::3]))
+	allNamesWithRank = {}
+	allNamesWithRank.update(boyNamesWithRank)
+	allNamesWithRank.update(girlNamesWithRank)
+	namesWithRankList = [''.join(year)]
+	for name, rank in sorted(allNamesWithRank.items(), key=get_count):
+		nameRank = name + ' ' + rank
+		namesWithRankList.append(nameRank)
+	text = '\n'.join(namesWithRankList) + '\n'
+	f = open('foo.txt', 'w')
+	f.write(text)
+	f.close()
+	print type(text)
+	# print namesWithRankList
 extract_names('baby1990.html')
